@@ -1,7 +1,7 @@
-# **GAME TITLE** by TEAM_J
+# Sk8 Escape
 ## IGME-106 Spring 2024
 
-_This README contains basic information about the project and its artifacts. If kept up to date, it will act as a primary dashboard for the project._
+School Monogame game made during a group project. Basic side scroller game with a pixel art style and interactive scoring.
 
 ## Team Members
 - Nicholas Lusardi

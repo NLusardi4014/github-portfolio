@@ -5,7 +5,7 @@ ________________________________________________________________________________
 
 Sk8 Escape 
 
-Folder: Sk8 Escape Files. 
+Folder: Sk8Escape. 
 
 Sk8 Escape is a C# semester long group project. This game is a 2D side scroller focusing on dodging obstacles though well timed jumps. 
 
@@ -29,7 +29,7 @@ ________________________________________________________________________________
 
 Torchlit Abyss
 
-Folder: Torchlit Abyss Shareable
+Folder: TorchlitAbyss
 
 Torchlit Abyss is a group project board game. This was a physical interpretation of a rougelike, with many different combat encounters, along with weapons and items to collect that can improve combat ability This project was focused on design, being a physical game. 
 

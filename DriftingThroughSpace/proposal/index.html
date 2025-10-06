@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 Proposal</title>
+    <style src="css/style.css"></style>
+</head>
+<body>
+    <div id="container">
+        <div class="section">
+            <h1>Drifting through Space</h1>
+        </div>
+        <div class="section">
+            <h2>High Concept</h2>
+            <p>You are trapped in space, and have use the broken parts around you to make it back to the ship!</p>
+        </div>
+        <div class="section">
+            <h2>Genre</h2>
+            <p>The game is a platforming based puzzle</p>
+        </div>
+        <div class="section">
+            <h2>Platform</h2>
+            <p>Uses Arrow keys to move, so only works on Desktop</p>
+        </div>
+        <div class="section">
+            <h2>Story</h2>
+            <p>After crashing into an astroid, you become trapped drifting through space. You are close to the ISS, and have to use the broken parts of your ship floating around you to make it back to the space station.</p>
+        </div>
+        <div class="section">
+            <h2>Estetic</h2>
+            <p>Retro style in both the graphics and sound design. Sound effects for moving and landing, as well as a sound effect for completing the game.</p>
+        </div>
+        <div class="section">
+            <h2>Gameplay</h2>
+            <p>
+                This game will use the JavaScript & the Browser DOM stack. The game will use arrow keys to move. If I am able to, I will also use WASD controls as well for the same movements. 
+                <br>The movement is limited in two ways. First, the player can not in a direction unless they have a wall behind them. Second, the player will keep moving until they hit another wall. Using these restrictions of movement is what creates the difficulty in the game.
+                <br>I plan to make the first four moves go in each cardinel direction, so I can place a sign with the keys for each direction at each of the first four moves. Other than that, there aren't any other controls, so nothing else has to be explained.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Screenshots</h2>
+            <p>I drew out a map in ms paint. The color sceme will be just an inverted version of this version</p>
+            <img src="images/Screenshot 2024-12-07 160829.png" alt="Demo map image"></img>
+
+        </div>
+        <div class="section">
+            <h2>Other</h2>
+            <p>
+                I had to change my proposal because I felt my past idea didn't fit well with either stack. I also felt that I was overscoping myself, so I removed the tools in the original proposal. That way I can remove probably the longest part while keeping the uniqueness of the game.
+                <br>Resources used: 
+                <br>Sprite sheets:
+                <br>https://bdragon1727.itch.io/free-smoke-fx-pixel-2?download
+                <br>https://momongaa.itch.io/16x16-sci-fi-shooter-tileset-dungeon-crawler
+                <br>https://rumblecade.itch.io/lunar-surface
+                <br>Background Image: https://negativespace.co/stars-space-background/
+                <br>Sound Effects are free use, but I do not have the link since it was given as a file to me by one of my teachers from last semester.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Process</h2>
+            <p>Going into the prototype, I wanted to have a working game with enough mechanics to make the game interesting. I started with the DOM Adventure! project, since it had the same level generation as what I wanted, and the movement was similar.
+                <br>Once the code implemented into my project and I had a level that I could move around in, I changed the movement system completely. It still used the Player's move methods, since I couldn't think of a shorter solution, but it now forces the player to have a wall behind them and move until they hit a wall.
+                <br>Now with the core mechanic done, I took a step back to change the sprites, just so that I could experiment with theme for the in class presentation. I didn't change the css too much at that point, but I swapped out the background color and the sprite sheet.
+                <br>The last major thing I did, along with some bug fixes, was adding in breakable blocks. They weren't bug free going into the in class presentation, but currently they are walls that you can push off of. YOu can't go through them if you are next to them, but if you come in with some speed, by which I mean already moving, you can break them for the rest of the level.
+                <br>After the in class presentation, I fixed the bug with breakable blocks not respawning and added the condition so player's couldn't just initiate a move into them. 
+                <br>I took a short break from working to focus on other finals, so when I came back I started going through the requirements. I started by implementing a ES6 Class for my game world. Doing this for my game world instead of something like the player allowed me to have variable starting locations.
+                <br>After that, I finally tackled the visuals. I centered all of my content on the screen, added a starry background, swapped out the player model to a better one, changed the font, and added an animation for breaking blocks.
+                <br>While adding the visuals, I implemented three different sound effects, one for breaking a breakable wall, and two for reaching the end of a level. One is played when moving between levels, and the other is played when the player reaches the end of the game.
+                <br>After that, I made modifications to my levels to make them all exist on the same size plane, made the play space smaller for 1 and 2 to ease into larger puzzles, improved the third level, and added a 4th level.
+                <br>Once I was done with the levels, I finished any minor changes I had left to do, validated my code, removed any unused files, and filmed the video.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Requrements</h2>
+            <p>
+                For this project, I definitly used the DOM Adventure! as a base. However, while I did leave some code as it was, I made sure that everything was left in the code for a reason. For code I rewrote from the starter, I made sure it had a place in my code, and I tried to make alterations wherever would improve the project.
+                <br>I implemented my ES6 class with the game world. As I said above, it allowed me to create a variable start point along with keeping the actual game map seporate from the rendered map. I was thinking about changing the player to use a class, since it was the same as the starter code, but it just didn't fit.
+                <br>While I don't have error checking, I play tested quite a bit to prevent any error from occuring. My movement system has a lot of checks, and any changes made to the game board are kept seporate from the original map. 
+                <br>I mainly used very small sprite sheets for my images, and while I might have been able to crop them, it would have only saved a couple dozen kilobites at best. The largest image I have is the starry background image I used, and it is nearly 100 times larger than anything else. I did remove any unused sprite sheets or images to reduce the project's size, but overall I couldn't find a way to make the game run any slower on my machine, especially after the cleanup.
+                <br>The documentation, along with the proposal, are completed and were submitted on time. I did end of changing and improving the proposal after the due date, but that was because my original idea for this project was a massive overscope.
+                <br>All console checks are cleared, my code was validated, and all of my code is seporated. I even seporated my js scripts into two different files; with my core methods in main and any code relating to the game world in it's own file.
+                <br>The prototype was submitted on time, and I participated in the in class feedback. I gave feedback to multiple people and submitted the feedback I got after class to MyCourses.
+                <br>For the visual and conceptual side, I think I created a rather creative core game, creating a movement based puzzle game. 
+                <br>The visuals are simple, but they all follow the same theme and have very clear contrast. The title font matches the theme well, and the description is minimal, only giving the user the controls so that they have to experiment to figure out a solution to each of the 4 levels.
+                <br>While levels 1 and 2 are basic introductions to the game, each of the other levels have multiple methods of solving them. The breakable walls allow for paths to diverge much more than they could have without them, and leads to some pretty cool solutions that came up completely unintentionally.
+                <br>There are visual effects for breaking blocks, and sounds for breaking blocks and passing a level. While these are probably the weakest part of the design, since they aren't as prevelent, they added a lot more to the experience than I thought they would.
+                <br>I was very surprised how entertaining it could be to find a new solution after knowing the intended, in quotes, path. Just the discovery in the mechanics makes this game very entertaining to play in my opinion.
+                <br>The game itself doesn't really have much an interface. I couldn't figure out a way that really fit. I do display the current level under the game map, but other than that the game really thrives when the player has to figure things out on their own. I think this is the weakest part of the project, but it fits the game's playstyle, and I didn't want to ruin the feel of the game by spoiling too much.
+                <br>The video explains how the game works, goes throught the basic discoveries that the player will make throuughout the levels, and uses an overlay to make it easier to understand. I spoke very clearly in the video, the audio seemed to be balanced well, and it is pretty concise at 2 minutes on the dot.
+                <br>Overall, I think I took this project above and beyond in its mechanics. While the visuals fit the project well, I think what really sets it apart is just the shear amount of creativity that can come in a 30 by 20 tile box with very limited movement and two types of walls. The levels are designed to teach the player the mechanics without outright telling them, and give room for creative solutions.
+            </p>
+        </div>
+        <div class="section">
+            <h2>Extra</h2>
+            <p>You should try to solve levels 3 and 4 multiple ways. Both of them have at least 2 solutions. Level 3's was unintended but I changed it to work.</p>
+        </div>
+        <div class="section">
+            <h2>About developer</h2>
+            <p>Nicholas Lusardi - Second Year in Game Design and Development. I am very interested in programming</p>
+        </div>
+    </div>
+</body>
+</html>

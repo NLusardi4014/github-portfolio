@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drifting Through Space</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/gameWorld.js" defer></script>
+    <style>
+		audio{display:none;}
+	</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Drifting Through Space</h1>
+        <div id="content"></div>
+        <h2>When against a wall, use WASD to push yourself through space!
+            <br>Press R to return to the start
+            <br>Press the number of a level to move to it
+            <br>Current Level: <span id="levelText"></span></h2>
+    </div>
+    <audio id="levelChange" class="effectAudio" src="sounds/ArcadePowerUp01.wav" controls></audio>
+    <audio id="gameComplete" class="effectAudio" src="sounds/EscapingtheAtmosphere.wav" controls></audio>
+    <audio id="wallBreak" class="effectAudio" src="sounds/WindowBreak02.wav" controls></audio>
+</body>
+</html>

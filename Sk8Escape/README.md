@@ -16,8 +16,5 @@ School Monogame game made during a group project. Basic side scroller game with 
 See [resources/README.md](resources/README.md) for details.
 
 ## Other Resources
-- [Task management Board](TBD) - Link to the team's project board based on this [Trello template](https://trello.com/b/FYbymkCg/template-gdd-project-board)
-- [Google Documentation](TBD) - Link to the team's Google Doc with written project documentation based on the [class template](https://docs.google.com/document/d/1Lom3OQ_XgbtvXoVCYa113UcY4q7x3yPT32sZIBy6vDo/edit?usp=share_link)
 - [MonoGame Documentation](http://www.monogame.net/documentation/?page=main)
-- [Course homepage](https://mycourses.rit.edu/d2l/home/1012413)
 - This [UML class diagram reference](http://agilemodeling.com/artifacts/classDiagram.htm) probably has more than you'll need, but it's a good starting point. (That site in general has a lot of great resources.)
